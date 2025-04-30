@@ -2,8 +2,6 @@
 
 <?php
 
-
-
 abstract class Vehicule{
     
     protected $id ;
