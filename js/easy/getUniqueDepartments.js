@@ -797,3 +797,6 @@ function abdelouafi(arr)
 
 }
 console.log(abdelouafi([1, 2, 5, 8, 5, 3, 2, 4]));
+
+
+console.log(typeof(Object));
