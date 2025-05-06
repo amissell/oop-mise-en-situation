@@ -13,7 +13,7 @@
 // test();
 
 
-let arr = ['ali', 'ahmed', 'yara', 'sara', 'yassin', 'amal'];
+let arr = ['ali', 'ahmnnnned', 'yara', 'sara', 'yassin', 'amal'];
 
 function test(arr)
 {
@@ -35,3 +35,15 @@ function test(arr)
 console.log(test(arr));
 
 // console.log(typeof(length));
+
+
+let str = "nssjh bsyugf idugwf coisegfksfb ikugserfbuesl"
+
+function sortStringToArray(str)
+{
+    let i = 0;
+    while(i < length.str)
+    {
+        
+    }
+}

@@ -752,48 +752,8 @@ const employees = [
   ];
 
 
-  function countEnglishSpeakingEmployees(employees)
-{
-    let i = 0;
-    let count = 0;
-    while(i < employees.length)
-        {
-            let languages = employees[i].languages;
-            let j = 0
-            while(j < languages.length)
-        {
-            if (languages[j] == 'English')
-            {
-                count++;
-            }
-            j++
-        }
-        i++;
-    }
+  function getEmployeesByProject(employees, projects)
+  {
 
- 
-    return count;
-}
-
-console.log(countEnglishSpeakingEmployees(employees));
-
-
-
-
-// const languages = (array) => {
-//     let count = 0;
-//     for (let i = 0; i < array.length; i++) {
-//         const langue = array[i].languages;
-//         // console.log(langue);
-//         for (let j = 0; j < langue.length; j++) {
-//             const element = langue[j];
-//             if (element=='English') {
-//                 count++;
-//             }            
-//         }
-//     }
-
-//     return count;
-
-// }
-// console.log(languages(employees));
+    
+  }
