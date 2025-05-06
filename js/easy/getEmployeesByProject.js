@@ -752,7 +752,29 @@ const employees = [
   ];
 
 
-  function getEmployeesByProject(employees, projects)
+  function getEmployeesByProject(employees, project)
   {
-
+    let i = 0;
+    let count = 0;
+    let result = [];
+    while(i < employees.length)
+    {
+        let j = 0;
+        // let projectGama = employees[i].projects[j];
+        while(j < employees[i].projects.length)
+        {
+            if(employees[i].projects[j] == project)
+            {
+                result[count] = employees[i];
+                // result.push(employees[i])
+                count++;
+            }
+            
+            j++;
+        }
+        i++;
+    }
+    return result;
   }
+
+  console.log(getEmployeesByProject(employees, "Project Gamma"));
